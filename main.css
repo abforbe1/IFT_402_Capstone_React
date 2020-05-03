@@ -235,10 +235,25 @@ p {
 	padding-right: 21px;
 }
 
-@media screen and (max-width: 800px) {
-   
-} 
+.blue {
+	color: #4179AF;
+}
 
-@media screen and (max-width: 500px) {
-    
+.orange {
+	color: #F5AD05;
+}
+
+.green {
+	color: green;
+}
+
+.blogpost {
+	border: solid 2px #DDDDDD;
+	border-radius: 10px;
+	padding: 2%;
+	margin-top: 20px;
+}
+
+.blogpost img {
+	max-width: 100%;
 }

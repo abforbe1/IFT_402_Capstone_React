@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a21c660dd3657e4d81b09d8f2aaff73f",
+    "revision": "895eee732a3fd22e6a28240c6e49383f",
     "url": "/index.html"
   },
   {
-    "revision": "f83bc2fee261d05a7876",
-    "url": "/static/js/2.a57fa8dc.chunk.js"
+    "revision": "14b8739df78c379b7b33",
+    "url": "/static/js/2.7546dbeb.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/static/js/2.a57fa8dc.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.7546dbeb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6cfb87e72e2ca2f83ebb",
-    "url": "/static/js/main.894c93c5.chunk.js"
+    "revision": "4a7043be4c16edc35e0d",
+    "url": "/static/js/main.9d2f0a5a.chunk.js"
   },
   {
     "revision": "685bc2e6d2925ab51ae0",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2aa39ca25c5e387ca711b9320ebd9e04",
     "url": "/static/media/cybertruck.2aa39ca2.jpg"
+  },
+  {
+    "revision": "37ce2202cdd3e96e184968beb9bcb5d3",
+    "url": "/static/media/evgas.37ce2202.jpg"
   },
   {
     "revision": "12e7351754159c2a5a6b33ef0df555d5",
@@ -72,6 +76,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/modely.59423395.jpg"
   },
   {
+    "revision": "453312d2c476fb4806ff3f9d950a4f36",
+    "url": "/static/media/msrpvsrange.453312d2.jpg"
+  },
+  {
     "revision": "0f8bd565c950be7d85123c1ea7a04640",
     "url": "/static/media/niroev.0f8bd565.jpg"
   },
@@ -82,5 +90,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4b005ffe1c826dbdf40a79459c740c71",
     "url": "/static/media/priusprime.4b005ffe.jpg"
+  },
+  {
+    "revision": "2704debcc3eb97567e4309a7a0a158a5",
+    "url": "/static/media/rangeanxiety.2704debc.jpg"
+  },
+  {
+    "revision": "07ab74d53c6807b80907a04b1836206a",
+    "url": "/static/media/teslachart.07ab74d5.jpg"
   }
 ]);

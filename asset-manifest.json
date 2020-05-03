@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.js": "/static/js/main.894c93c5.chunk.js",
-    "main.js.map": "/static/js/main.894c93c5.chunk.js.map",
+    "main.js": "/static/js/main.9d2f0a5a.chunk.js",
+    "main.js.map": "/static/js/main.9d2f0a5a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.76c2eab9.js",
     "runtime-main.js.map": "/static/js/runtime-main.76c2eab9.js.map",
-    "static/js/2.a57fa8dc.chunk.js": "/static/js/2.a57fa8dc.chunk.js",
-    "static/js/2.a57fa8dc.chunk.js.map": "/static/js/2.a57fa8dc.chunk.js.map",
+    "static/js/2.7546dbeb.chunk.js": "/static/js/2.7546dbeb.chunk.js",
+    "static/js/2.7546dbeb.chunk.js.map": "/static/js/2.7546dbeb.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.309357231a9202d22516af87687b1f0c.js": "/precache-manifest.309357231a9202d22516af87687b1f0c.js",
+    "precache-manifest.4478b4f2d7c5504d991135e4d74d9640.js": "/precache-manifest.4478b4f2d7c5504d991135e4d74d9640.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.a57fa8dc.chunk.js.LICENSE.txt": "/static/js/2.a57fa8dc.chunk.js.LICENSE.txt",
+    "static/js/2.7546dbeb.chunk.js.LICENSE.txt": "/static/js/2.7546dbeb.chunk.js.LICENSE.txt",
     "static/media/bolt.jpg": "/static/media/bolt.9221a2c8.jpg",
     "static/media/clarity.jpg": "/static/media/clarity.b2d8fdec.jpg",
     "static/media/cybertruck.jpg": "/static/media/cybertruck.2aa39ca2.jpg",
+    "static/media/evgas.jpg": "/static/media/evgas.37ce2202.jpg",
     "static/media/fusion.jpg": "/static/media/fusion.12e73517.jpg",
     "static/media/i3.jpg": "/static/media/i3.9cf05b38.jpg",
     "static/media/ioniq.jpg": "/static/media/ioniq.bd44acf6.jpg",
@@ -23,13 +24,16 @@
     "static/media/models.jpg": "/static/media/models.e1e47800.jpg",
     "static/media/modelx.jpg": "/static/media/modelx.e47d94c7.jpg",
     "static/media/modely.jpg": "/static/media/modely.59423395.jpg",
+    "static/media/msrpvsrange.jpg": "/static/media/msrpvsrange.453312d2.jpg",
     "static/media/niroev.jpg": "/static/media/niroev.0f8bd565.jpg",
     "static/media/nirophev.jpg": "/static/media/nirophev.6758516b.jpg",
-    "static/media/priusprime.jpg": "/static/media/priusprime.4b005ffe.jpg"
+    "static/media/priusprime.jpg": "/static/media/priusprime.4b005ffe.jpg",
+    "static/media/rangeanxiety.jpg": "/static/media/rangeanxiety.2704debc.jpg",
+    "static/media/teslachart.jpg": "/static/media/teslachart.07ab74d5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.76c2eab9.js",
-    "static/js/2.a57fa8dc.chunk.js",
-    "static/js/main.894c93c5.chunk.js"
+    "static/js/2.7546dbeb.chunk.js",
+    "static/js/main.9d2f0a5a.chunk.js"
   ]
 }
