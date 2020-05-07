@@ -1,7 +1,3 @@
-html {
-	min-width: 999px;
-	max-width: 1166px;
-}
 body {
   font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
 }
@@ -38,7 +34,7 @@ body {
 }
 
 .Splash {
-	height: 400px;
+	height: 250px;
     width: 100%;
     background-size: auto auto;
     background-position: center;
@@ -58,7 +54,7 @@ body {
 }
 
 .row-spacer {
-	height: 100px;
+	height: 80px;
 }
 
 .splash-text {
@@ -287,4 +283,19 @@ p {
 
 h5 a:hover {
 	text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .row-spacer {
+    height: 30px;
+  }
+
+    #search {
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+
+    #compare-btn {
+    	margin-top: 5px;
+    }
 }
