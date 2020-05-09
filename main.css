@@ -122,47 +122,26 @@ p {
 	padding: 5px;
 }
 
-#results-container {
-	width: 100%;
-	min-width: 800px;
-	height: 700px;
-}
-
-#edit-search {
-	margin: 10px;
-	padding-right: 0px;
-	border-right: solid 2px gray;
-}
-
 .form-group {
 	padding: 5px;
 	border-bottom: solid 2px gray;
 }
 
 .car-result {
-	margin-top: 10px;
-	width: 100%;
-	height: 150px;
-	border: 1px solid gray;
-	border-radius: 5px;
+  border: solid 2px rgba(0,0,0,.2);
+  border-radius: 5px;
+  margin: 5px;
+  max-width: 560px;
+  box-shadow: 3px 3px rgba(0,0,0,.1);
+}
+
+.car-info {
+  background-color: rgba(255,255,255,.7);
 }
 
 .car-thumb {
-	width: 250px;
-	background-color: white;
-	background-repeat: no-repeat;
-	background-size: auto 100%;
-	margin: 10px;
-}
 
-.car-result .col-3 {
-	margin-top: 10px;
 }
-
-.car-result a {
-	font-size: .8em;
-}
-
 .EV {
 	font-size: .9em;
 	color: #FFFFFF;
@@ -171,7 +150,6 @@ p {
 	border-radius: 7px;
 	padding: 2px;
 }
-
 .PHEV {
 	font-size: .9em;
 	color: #FFFFFF;
@@ -180,44 +158,37 @@ p {
 	border-radius: 7px;
 	padding: 2px;
 }
-
 .car-name {
 	color: #242424;
 	font-size: 1.2em;
 	font-weight: bold;
 	font-style: normal;
 }
-
 .car-year {
 	font-size: .6em;
 	font-style: italic;
 	font-weight: bold;
 }
-
 .car-model {
 	font-size: 1.1em;
 	font-style: italic;
 	font-weight: bold;
 }
-
 .car-price {
 	color: #036704;
 	font-weight: bold;
 	font-style: normal;
 }
-
 .car-tax {
 	color: #274968;
 	font-size: .9em;
 	font-weight: bold;
 	font-style: italic;
 }
-
 .car-range, .kbb{
 	font-size: .8em;
 	font-style: normal;
 }
-
 .car-desc {
 	position: relative;
 	top: -4px;
@@ -226,76 +197,66 @@ p {
 	font-style: italic;
 	color: #5B5B5B;
 }
-
 .article-a {
 	background-image: url('https://i2.wp.com/electrek.co/wp-content/uploads/sites/3/2020/04/VW-id3-electric-car-heads-up-display.jpg?w=1500&quality=82&strip=all&ssl=1');
 }
 .article-b {
 	background-image: url('https://techcrunch.com/wp-content/uploads/2020/03/GMEVDay02.jpg?w=990&crop=1');
 }
-
 .article-c {
 	background-image: url('https://cleantechnica.com/files/2020/04/March-2020-Germany-Passenger-Auto-Registrations-Clean.png');
 }
-
 .hidden {
 	display: none;
 }
-
 .padding-right {
 	padding-right: 21px;
 }
-
 .blue {
 	color: #4179AF;
 }
-
 .orange {
 	color: #F5AD05;
 }
-
 .green {
 	color: green;
 }
-
 .lightblue {
 	color: #388EFF;
 }
-
 .red {
 	color: #990033;
 }
-
 .centered {
 	text-align: center;
 }
-
 .blogpost {
 	border: solid 2px #DDDDDD;
 	border-radius: 10px;
 	padding: 2%;
 	margin-top: 20px;
 }
-
 .blogpost img {
 	max-width: 100%;
 }
-
 h5 a:hover {
 	text-decoration: none;
 }
-
 @media screen and (max-width: 768px) {
   .row-spacer {
     height: 30px;
   }
 
-    #search {
-			margin-left: 10%;
-			margin-right: 10%;
-		}
+  #search {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
 
-    #compare-btn {
-    	margin-top: 5px;
-    }
+  #compare-btn {
+  	margin-top: 5px;
+  }
+
+  #filter {
+    display: none;
+  }
 }
