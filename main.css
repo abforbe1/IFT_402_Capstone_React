@@ -242,6 +242,9 @@ p {
 h5 a:hover {
 	text-decoration: none;
 }
+#show-filter {
+  display: none;
+}
 @media screen and (max-width: 768px) {
   .row-spacer {
     height: 30px;
@@ -256,7 +259,22 @@ h5 a:hover {
   	margin-top: 5px;
   }
 
-  #filter {
+  #Filter {
+    position: absolute;
+    top: 88px;
+    left: 0;
+    z-index: 1;
+    background-color: white;
+    width: 300px;
+  }
+
+  #show-filter {
+    display: inherit;
+    width: 120px;
+    margin-left:20px;
+    margin-top: 5px;
+  }
+  .hide-mobile {
     display: none;
   }
 }
