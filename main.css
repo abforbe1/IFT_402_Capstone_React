@@ -29,6 +29,10 @@ body {
 	cursor: pointer;
 }
 
+.Results, .Splash, .About  {
+  margin-top: 40px;
+}
+
 .active, .nav-link:hover {
 	background-color: #333333;
 }
