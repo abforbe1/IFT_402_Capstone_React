@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.js": "/static/js/main.995251bb.chunk.js",
-    "main.js.map": "/static/js/main.995251bb.chunk.js.map",
+    "main.js": "/static/js/main.d228ee9e.chunk.js",
+    "main.js.map": "/static/js/main.d228ee9e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.76c2eab9.js",
     "runtime-main.js.map": "/static/js/runtime-main.76c2eab9.js.map",
-    "static/js/2.42c6faa3.chunk.js": "/static/js/2.42c6faa3.chunk.js",
-    "static/js/2.42c6faa3.chunk.js.map": "/static/js/2.42c6faa3.chunk.js.map",
+    "static/js/2.d5aec9da.chunk.js": "/static/js/2.d5aec9da.chunk.js",
+    "static/js/2.d5aec9da.chunk.js.map": "/static/js/2.d5aec9da.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d68f4c68853cb6df40ef10533b0953b3.js": "/precache-manifest.d68f4c68853cb6df40ef10533b0953b3.js",
+    "precache-manifest.c4a9b669152738bd07d6e0636b2854e2.js": "/precache-manifest.c4a9b669152738bd07d6e0636b2854e2.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.42c6faa3.chunk.js.LICENSE.txt": "/static/js/2.42c6faa3.chunk.js.LICENSE.txt",
+    "static/js/2.d5aec9da.chunk.js.LICENSE.txt": "/static/js/2.d5aec9da.chunk.js.LICENSE.txt",
     "static/media/bolt.jpg": "/static/media/bolt.9221a2c8.jpg",
     "static/media/clarity.jpg": "/static/media/clarity.b2d8fdec.jpg",
     "static/media/cybertruck.jpg": "/static/media/cybertruck.2aa39ca2.jpg",
     "static/media/doug.jpg": "/static/media/doug.b2827641.jpg",
-    "static/media/elon.jpg": "/static/media/elon.1e9c78de.jpg",
     "static/media/evgas.jpg": "/static/media/evgas.37ce2202.jpg",
     "static/media/fusion.jpg": "/static/media/fusion.12e73517.jpg",
     "static/media/i3.jpg": "/static/media/i3.9cf05b38.jpg",
@@ -31,13 +30,12 @@
     "static/media/niroev.jpg": "/static/media/niroev.0f8bd565.jpg",
     "static/media/nirophev.jpg": "/static/media/nirophev.6758516b.jpg",
     "static/media/priusprime.jpg": "/static/media/priusprime.4b005ffe.jpg",
-    "static/media/rangeanxiety.jpg": "/static/media/rangeanxiety.2704debc.jpg",
-    "static/media/reddit1.jpg": "/static/media/reddit1.bf16808c.jpg",
+    "static/media/rangeanxiety.jpg": "/static/media/rangeanxiety.19d25262.jpg",
     "static/media/teslachart.jpg": "/static/media/teslachart.07ab74d5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.76c2eab9.js",
-    "static/js/2.42c6faa3.chunk.js",
-    "static/js/main.995251bb.chunk.js"
+    "static/js/2.d5aec9da.chunk.js",
+    "static/js/main.d228ee9e.chunk.js"
   ]
 }

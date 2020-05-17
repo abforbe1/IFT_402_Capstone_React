@@ -1,239 +1,46 @@
 body {
   font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
 }
-
-.bold {
-	font-weight: bold;
+h5 a:hover {
+	text-decoration: none;
 }
-
-.italic {
-	font-style: italic;
-}
-
-.navbar {
-	background-color: #242424;
-	padding-top: 0px;
-	padding-bottom: 0px;
-}
-
-.navbar-brand-custom {
-	font-style: italic;
-	font-weight: normal;
-	font-size: 1.4em;
-	color: #0F87FF;
-	padding-right: 10px;
-	cursor: pointer;
-}
-
-.nav-link {
-	cursor: pointer;
-}
-
-.Results, .Splash, .About  {
-  margin-top: 40px;
-}
-
-.active, .nav-link:hover {
-	background-color: #333333;
-}
-
-.Splash {
-	height: 350px;
+iframe {
   width: 100%;
-  background-size: auto auto;
-  background-position: center;
-  background-repeat: no-repeat;
-	background-color: rgba(100,100,100,.3);
-  background-image: url('img/splash1.jpg');
+  height: 400px;
 }
-
-.splash-small {
-	height: 150px;
-  width: 100%;
-  background-size: auto auto;
-  background-position: center;
-  background-repeat: no-repeat;
-	background-color: rgba(100,100,100,.3);
-  background-image: url('img/splash1.jpg');
-}
-
-.splash-small .splash-text {
-	margin-top: 60px;
-
-	background-color: rgba(255,255,255,.8);
-}
-
-.row-spacer {
-	height: 135px;
-}
-
-.splash-text {
-	background-color: rgba(255,255,255,.5);
-	font-size: .9em;
-	border-radius: 5px;
-}
-
-.center-text {
-	text-align: center;
-}
-
-.bold-text {
-	font-weight: bold;
-}
-
 p {
 	margin: 5px 0px;
 }
-
+#creator-img {
+  max-height: 250px;
+  text-align: center;
+}
 #search {
 	margin-top: 2em;
 }
-
-#search-check {
-	margin-left: 15px;
+#show-filter {
+  display: none;
 }
-
-#news-bar h3 {
-	text-align: center;
-	color: #7A7A7A;
-	font-weight: bold;
-}
-.article-preview {
-	border: 1px solid rgba(100,100,100,.3);
-	border-radius: 15px;
-}
-
-.article-thumb{
-	width: 100%;
-	height: 150px;
-	background-color: #FFFFFF;
-	background-position: center;
-	background-size: auto 100%;
-	background-repeat: no-repeat;
-	text-align: center;
-	margin-top: 5px;
-}
-
-.article-preview p {
-	font-size: .8em;
-}
-
-.article-preview span {
-	font-size: 1.1em;
-	color: #545454;
-}
-
-#news-bar {
-	padding: 5px;
-}
-
-.form-group {
-	padding: 5px;
-	border-bottom: solid 2px gray;
-}
-
-.car-result {
-  border: solid 2px rgba(0,0,0,.2);
-  border-radius: 5px;
+#sort {
   margin: 5px;
-  max-width: 560px;
-  box-shadow: 3px 3px rgba(0,0,0,.1);
+  padding-top: 5px;
 }
-
-.car-info {
-  background-color: rgba(255,255,255,.7);
+#sort select {
+  max-width: 130px;
+  font-size: .7em;
 }
-
-.car-thumb {
-
+#title {
+  margin-top: 20px;
+  text-align: center;
 }
-.EV {
-	font-size: .9em;
-	color: #FFFFFF;
-	background-color: #4179AF;
-	border: solid 2px #335E87;
-	border-radius: 7px;
-	padding: 2px;
+.About, .Results, .Splash   {
+  margin-top: 40px;
 }
-.PHEV {
-	font-size: .9em;
-	color: #FFFFFF;
-	background-color: #F5AD05;
-	border: solid 2px #C18905;
-	border-radius: 7px;
-	padding: 2px;
+.active, .nav-link:hover {
+	background-color: #333333;
 }
-.car-name {
-	color: #242424;
-	font-size: 1.2em;
+.bold {
 	font-weight: bold;
-	font-style: normal;
-}
-.car-year {
-	font-size: .6em;
-	font-style: italic;
-	font-weight: bold;
-}
-.car-model {
-	font-size: 1.1em;
-	font-style: italic;
-	font-weight: bold;
-}
-.car-price {
-	color: #036704;
-	font-weight: bold;
-	font-style: normal;
-}
-.car-tax {
-	color: #274968;
-	font-size: .9em;
-	font-weight: bold;
-	font-style: italic;
-}
-.car-range, .kbb{
-	font-size: .8em;
-	font-style: normal;
-}
-.car-desc {
-	position: relative;
-	top: -4px;
-	font-size: .8em;
-	font-weight: bold;
-	font-style: italic;
-	color: #5B5B5B;
-}
-.article-a {
-	background-image: url('https://i2.wp.com/electrek.co/wp-content/uploads/sites/3/2020/04/VW-id3-electric-car-heads-up-display.jpg?w=1500&quality=82&strip=all&ssl=1');
-}
-.article-b {
-	background-image: url('https://techcrunch.com/wp-content/uploads/2020/03/GMEVDay02.jpg?w=990&crop=1');
-}
-.article-c {
-	background-image: url('https://cleantechnica.com/files/2020/04/March-2020-Germany-Passenger-Auto-Registrations-Clean.png');
-}
-.hidden {
-	display: none;
-}
-.padding-right {
-	padding-right: 21px;
-}
-.blue {
-	color: #4179AF;
-}
-.orange {
-	color: #F5AD05;
-}
-.green {
-	color: green;
-}
-.lightblue {
-	color: #388EFF;
-}
-.red {
-	color: #990033;
-}
-.centered {
-	text-align: center;
 }
 .blogpost {
 	border: solid 2px #DDDDDD;
@@ -244,73 +51,191 @@ p {
 .blogpost img {
 	max-width: 100%;
 }
-h5 a:hover {
-	text-decoration: none;
+.blue {
+	color: #4179AF;
 }
-#show-filter {
-  display: none;
+.car-desc {
+	position: relative;
+	top: -4px;
+	font-size: .8em;
+	font-weight: bold;
+	font-style: italic;
+	color: #5B5B5B;
 }
-
-#creator-img {
-  max-height: 300px;
-  text-align: center;
+.car-info {
+  background-color: rgba(255,255,255,.7);
 }
-
-iframe {
-  width: 100%;
-  height: 400px;
+.car-model {
+	font-size: 1.1em;
+	font-style: italic;
+	font-weight: bold;
 }
-
-#sort {
+.car-name {
+	color: #242424;
+	font-size: 1.2em;
+	font-weight: bold;
+	font-style: normal;
+}
+.car-price {
+	color: #036704;
+	font-weight: bold;
+	font-style: normal;
+}
+.car-range, .kbb{
+	font-size: .8em;
+	font-style: normal;
+}
+.car-result {
+  border: solid 2px rgba(0,0,0,.2);
+  border-radius: 5px;
   margin: 5px;
+  max-width: 560px;
+  box-shadow: 3px 3px rgba(0,0,0,.1);
 }
+.car-tax {
+	color: #274968;
+	font-size: .9em;
+	font-weight: bold;
+	font-style: italic;
+}
+.car-thumb {
+
+}
+.car-year {
+	font-size: .6em;
+	font-style: italic;
+	font-weight: bold;
+}
+.center-text {
+	text-align: center;
+}
+.EV {
+	font-size: .9em;
+	color: #FFFFFF;
+	background-color: #4179AF;
+	border: solid 2px #335E87;
+	border-radius: 7px;
+	padding: 2px;
+}
+.form-group {
+	padding: 5px;
+	border-bottom: solid 2px gray;
+}
+.green {
+	color: green;
+}
+.hidden {
+	display: none;
+}
+.italic {
+	font-style: italic;
+}
+.lightblue {
+	color: #388EFF;
+}
+.navbar {
+	background-color: #242424;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.navbar-brand-custom {
+	font-style: italic;
+	font-weight: normal;
+	font-size: 1.4em;
+	color: #0F87FF;
+	padding-right: 10px;
+	cursor: pointer;
+}
+.nav-link {
+	cursor: pointer;
+}
+.orange {
+	color: #F5AD05;
+}
+.padding-right {
+	padding-right: 21px;
+}
+.PHEV {
+	font-size: .9em;
+	color: #FFFFFF;
+	background-color: #F5AD05;
+	border: solid 2px #C18905;
+	border-radius: 7px;
+	padding: 2px;
+}
+.red {
+	color: #990033;
+}
+.row-spacer {
+	height: 135px;
+}
+.Splash {
+	height: 350px;
+  width: 100%;
+  background-size: auto auto;
+  background-position: center;
+  background-repeat: no-repeat;
+	background-color: rgba(100,100,100,.3);
+  background-image: url('img/splash1.jpg');
+}
+.splash-small {
+	height: 150px;
+  width: 100%;
+  background-size: auto auto;
+  background-position: center;
+  background-repeat: no-repeat;
+	background-color: rgba(100,100,100,.3);
+  background-image: url('img/splash1.jpg');
+}
+.splash-small .splash-text {
+	margin-top: 60px;
+
+	background-color: rgba(255,255,255,.8);
+}
+.splash-text {
+	background-color: rgba(255,255,255,.5);
+	font-size: .9em;
+	border-radius: 5px;
+}
+
 @media screen and (max-width: 768px) {
+  iframe {
+    height: 225px;
+  }
+  #compare-btn {
+  	margin-top: 5px;
+  }
+  #search {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+  #show-filter {
+    display: inherit;
+    width: 34px;
+    padding: 4px;
+    margin-left:20px;
+    margin-bottom: -30px;
+    background-color: rgba(0,0,0,.1);
+    border-radius: 5px;
+  }
+  #sort {
+    position: relative;
+    top: -3px;
+    left: 165px;
+    z-index: 1;
+    padding-top: 0px;
+    width: 200px;
+  }
+  .hide-mobile {
+    display: none;
+  }
+  .Results {
+    margin-top: 45px;
+  }
   .row-spacer {
     height: 30px;
   }
   .Splash {
     height: 250px;
   }
-  #search {
-		margin-left: 10%;
-		margin-right: 10%;
-	}
-
-  #compare-btn {
-  	margin-top: 5px;
-  }
-
-  #Filter {
-    position: absolute;
-    top: 88px;
-    left: 0;
-    z-index: 1;
-    background-color: white;
-    width: 300px;
-  }
-
-  #show-filter {
-    display: inherit;
-    width: 34px;
-    padding: 4px;
-    margin-left:20px;
-    margin-top: 5px;
-    background-color: rgba(0,0,0,.1);
-    border-radius: 5px;
-  }
-  .hide-mobile {
-    display: none;
-  }
-
-  iframe {
-    height: 225px;
-  }
-
-  #sort {
-    position: fixed;
-    top: 43px;
-    right: 0px;
-    z-index: 1;
-  }
-
 }

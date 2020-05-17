@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b67e0b22a85e66aca9e16247dcba902c",
+    "revision": "4884cb33d18de7a04a213b6da66fda9e",
     "url": "/index.html"
   },
   {
-    "revision": "8b953383a7e5ad9dd6e4",
-    "url": "/static/js/2.42c6faa3.chunk.js"
+    "revision": "010812e088d63d26d7b2",
+    "url": "/static/js/2.d5aec9da.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/static/js/2.42c6faa3.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d5aec9da.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2906d8abfd3edc036bff",
-    "url": "/static/js/main.995251bb.chunk.js"
+    "revision": "b558046ca6bea2dc1111",
+    "url": "/static/js/main.d228ee9e.chunk.js"
   },
   {
     "revision": "685bc2e6d2925ab51ae0",
@@ -34,10 +34,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b28276417e2168b3bfd389e9b1765927",
     "url": "/static/media/doug.b2827641.jpg"
-  },
-  {
-    "revision": "1e9c78de17ff702b9bd11308f6394c2a",
-    "url": "/static/media/elon.1e9c78de.jpg"
   },
   {
     "revision": "37ce2202cdd3e96e184968beb9bcb5d3",
@@ -104,12 +100,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/priusprime.4b005ffe.jpg"
   },
   {
-    "revision": "2704debcc3eb97567e4309a7a0a158a5",
-    "url": "/static/media/rangeanxiety.2704debc.jpg"
-  },
-  {
-    "revision": "bf16808cc7427a40cb79c4be03b4b3bd",
-    "url": "/static/media/reddit1.bf16808c.jpg"
+    "revision": "19d25262e1985ed4cbe101462c30096d",
+    "url": "/static/media/rangeanxiety.19d25262.jpg"
   },
   {
     "revision": "07ab74d53c6807b80907a04b1836206a",
